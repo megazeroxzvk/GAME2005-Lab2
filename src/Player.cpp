@@ -34,7 +34,7 @@ void Player::update()
 	const float deltaTime = 1.0f / 60.f;
 
 	//Lab 2: Normalize the vector for correct diagonal speed/acc
-	//first magnitude is required
+	//first magnitude is required.
 	float directionMagnitude = Util::magnitude(m_direction);
 
 	//If at all you get 0 as direction magnitude, it leads to a divide by 0
